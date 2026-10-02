@@ -17,7 +17,7 @@ $gramos = 25;
 if (!array_key_exists($opcionProducto, $preciosOro)) {
     echo "Error: Producto no válido.";
 }elseif ($gramos < 20) {
-    echo "No procede la venta o cotización: El pedido debe ser de un mínimo de 20 gramos[cite: 1, 8].";
+    echo "No procede la venta o cotización: El pedido debe ser de un mínimo de 20 gramos";
 }else {
     $productoSeleccionado = $preciosOro[$opcionProducto];
     $totalSoles = $gramos * $productoSeleccionado['precio'];
