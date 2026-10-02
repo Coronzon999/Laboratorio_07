@@ -22,7 +22,7 @@ let precioUnitarioNi = diaSemanalNi [dia];
 let costoEntradGe = precioUnitarioGe * cantidadGe;
 let costoEntradaNi = precioUnitarioNi * cantidadNi;
 
-let montoVenta = costoEntradGe + constoEntradaNi;
+let montoVenta = costoEntradGe + costoEntradaNi;
 
 const tasaIGV = 0.18;
 const montoIGV = montoVenta * tasaIGV;
