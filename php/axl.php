@@ -36,6 +36,4 @@ echo "Cantidad de entradas para niños: " . $cantidadNi . "<br>";
 echo "Costo de entrada para general: s/ ", $costoEntradGe . "<br>";
 echo "Costo de entrada para niños: s/ ", $costoEntradaNi .  "<br>";
 echo "Costo total de entradas: s/" . $montoVenta . "<br>";
-
-
-
+//eeee//

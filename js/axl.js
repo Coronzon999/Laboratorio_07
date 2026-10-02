@@ -35,3 +35,5 @@ console.log("Cantidad de entradas para niños: ", cantidadNi);
 console.log("Costo de entrada para general: s/ ", costoEntradGe);
 console.log("Costo de entrada para niños: s/ ", costoEntradaNi);
 console.log("Costo total de entradas: s/ ", montoVenta);
+
+//eeee//
