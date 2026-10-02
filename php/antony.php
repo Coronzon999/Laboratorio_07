@@ -1,5 +1,5 @@
 <?php
-// Definimos los precios de aretes
+
 $preciosOro = [
     "1" => ["nombre" => "Aretes Rosalía", "precio" => 46.00],
     "2" => ["nombre" => "Aretes Cuarzo Plus", "precio" => 44.00],
@@ -11,8 +11,8 @@ $preciosOro = [
 $tipoCambioDolar = 3.40;
 $tipoCambioEuro = 4.20;
 
-$opcionProducto = "1"; // Ejemplo: 1 para Aretes Rosalía[cite: 1, 8]
-$gramos = 25;         // Cantidad de gramos ingresada por el cliente
+$opcionProducto = "1"; 
+$gramos = 25;    
 
 if (!array_key_exists($opcionProducto, $preciosOro)) {
     echo "Error: Producto no válido.";
